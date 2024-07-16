@@ -1,0 +1,153 @@
+.logo-area {
+    padding-bottom: 10px;
+}
+
+.header-menu.menu-layout1 {
+    background-color: #203e5d;
+}
+
+.logn_img img {
+    width: 80%;
+}
+
+.site-main {
+    background-color: #ffffff;
+    padding: 0px;
+    height: 100vh;
+}
+
+.logn_img {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+span.login_ac {
+    background: linear-gradient(90deg, #ffe19c 0, #bfa263 100.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+span.login_ac:after {
+    content: "";
+    background-image: url(img/download.svg);
+    width: 100%;
+    height: 47%;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: -19px;
+    filter: grayscale(3);
+}
+
+button.btn.btn-primary.w-30 {
+    width: 36%;
+    border-radius: 16px;
+    border: none;
+}
+
+header.header {
+    display: none;
+}
+
+footer.footer-area {
+    display: none;
+}
+
+.left_section {
+    background-image: url(../img/bgss.jpg);
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_section {
+    margin-left: 5rem;
+}
+
+.main_container {
+    display: flex;
+    align-items: center;
+}
+
+.left_section:before {
+    content: "";
+    background-color: #0000008f;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.inner_contt {
+    position: absolute;
+    width: 89%;
+    height: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.frm_logo img {
+    width: 135px;
+}
+
+.left_section:after {
+    content: "";
+    right: 0;
+    top: 20%;
+    position: absolute;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid #fff;
+    border-bottom: 15px solid transparent;
+}
+
+.fxt-header h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.fxt-transformY p {
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.bak_to_home a {
+    font-family: 'Ubuntu';
+    color: #c5a062;
+    border-bottom: 1px solid;
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: 0.3s all ease;
+}
+
+.bak_to_home i {
+    font-size: 13px;
+}
+
+.bak_to_home:hover a {
+    margin-left: 6px;
+}
+
+a.switcher-text2 {
+    color: #b78c26;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+}

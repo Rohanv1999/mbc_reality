@@ -1,0 +1,6 @@
+in application/config/config.php add 
+
+$config['stripe_publishable_key'] ="pk_test_51NcRufSEVTRO3iYoHvxwFP7AgM9rr4ReI1T7rnLrd5WyjOEXnu26S3WHcXJ273ZMR6NkVPl4YFqRfJXC47oUahhG00ArQHtJjX";
+$config['stripe_secret_key'] ="sk_test_51NcRufSEVTRO3iYo79cpQ47ms4N1CIc0WEWdjEs1JAvOhK68q1a5TrrxC6lHv2BpaEhdZefg4iNrS7G2xHwrlgM8008o7B4YV5";
+$config['stripe_currency'] ="inr";
+
